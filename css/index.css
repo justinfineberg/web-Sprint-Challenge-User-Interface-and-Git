@@ -66,6 +66,39 @@ p {
     line-height: 1.4;
 }
 
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.topBar{
+display: flex;
+align-items: baseline;
+justify-content: space-between;
+align-content: space-between;
+padding: 2rem;
+}
+
+header nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.mainImage{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* This is the start of Home page specific CSS */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -112,6 +145,48 @@ p {
     justify-content: center;
 }
 
+/* These are the individual boxes */
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,9 +201,76 @@ p {
     padding-right: 0;
 }
 
+/* This is the start of my about page CSS */
+
+.topAboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    border-bottom: 1px black dashed;
+    padding-bottom: 1rem;
+}
+
+.mainInformationContainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.middleAboutContainer{
+    display: flex;
+}
+
+.bottomAboutContainer{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.highlightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.highlightContainer h3{
+    margin-top: .7rem;
+}
+
+.highlightContainer button{
+    width: 8.5rem;
+    height: 2.5rem;
+    background-color: white;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 1rem;
+    margin-left: -.3rem;
+    text-align: center;
+}
+
+.endAboutContainer{
+    width: 77%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* This is my footer CSS */
+
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    margin: 0 auto;
 }
 
 footer nav {
